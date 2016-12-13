@@ -49,11 +49,6 @@ nav.navbar {
    padding: 15vh 5vw;
 }
 
-.pad4 {
-   padding: 50px 20px 20px 20px;
-   height: 100px;
-}
-
 .parallax {
     /* The image used */
     background-image: url('/images/Mountain.jpg');
@@ -148,11 +143,6 @@ small {
    color: white;
    text-shadow:  1px 1px black;
    padding: 0 30px
-}
-
-.white1 {
-   color: white;
-   text-shadow: 1px 1px black;
 }
 
 .parallax2 {
@@ -295,8 +285,7 @@ small {
 }
 
 #container1 {
-   background-image: url("https://www.doi.gov/sites/doi.gov/files/styles/featured_image__full_width/public/press-release/primary-images/yellowstonenp_bison_herd_lamar_valley_neal_herbert_nps_photo.jpg?itok=6k1ukTNM");
-   background-size: cover;
+   background-image: url("http://7-themes.com/data_images/out/30/6872614-yellowstone-pictures.jpg");
 }
 
 /* Extra small devices (phones, less than 768px) */
