@@ -32,9 +32,9 @@ angular.module("mtnApp",["ui.router"]).config(function($stateProvider, $urlRoute
       url: "/skiing",
       templateUrl: "./public/skiing.html"
     })
-    .state("sponsors", {
-      url: "/sponsors",
-      templateUrl: "./public/sponsors.html"
+    .state("favorites", {
+      url: "/favorites",
+      templateUrl: "./public/favorites.html"
     })
     .state("story", {
       url: "/story",
