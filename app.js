@@ -48,6 +48,10 @@ angular.module("mtnApp",["ui.router"]).config(function($stateProvider, $urlRoute
       url: "/testimonials",
       templateUrl: "./public/testimonials.html"
     })
+    .state("thanks", {
+      url: "/thanks",
+      templateUrl: "./public/thanks.html"
+    })
     .state("why", {
       url: "/why",
       templateUrl: "./public/why.html"

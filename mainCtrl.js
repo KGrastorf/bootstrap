@@ -18,7 +18,7 @@ angular.module("mtnApp")
           data: "Yosemite Valley."
         },{
           img: "http://www.env.gov.yk.ca/camping-parks/images/hikers.jpg",
-          data: "Hoofin' it in the backcountry."
+          data: "Hiking it in the backcountry."
         },{
           img: "http://www.fun-family-vacations.com/images/train-vacation-day-9-Yosemite-tunnel-view.jpg",
           data: "Happy Campers."
@@ -30,5 +30,33 @@ angular.module("mtnApp")
           data: "Splish, splash I was takin' a raft..."
         }];
 
+        $scope.gear = [{
+            img: "/images/Black.jpg",
+            data: "Black Tee"
+        },{
+            img: "/images/Blue.jpg",
+            data: "Blue Tee"
+        },{
+            img: "/images/Orange.jpg",
+            data: "Orange Tee"
+        },{
+            img: "/images/White.jpg",
+            data: "White Tee"
+        },{
+            img: "/images/Green.jpg",
+            data: "Green Tee"
+        },{
+            img: "/images/Yellow.jpg",
+            data: "Yellow Tee"
+        },{
+            img: "/images/WhiteBC.jpg",
+            data: "White Baseball Cap"
+        },{
+            img: "/images/GreenBC.jpg",
+            data: "Green Baseball Cap"
+        },{
+            img: "/images/BlackBC.jpg",
+            data: "Black Baseball Cap"
+        }]
 
     });

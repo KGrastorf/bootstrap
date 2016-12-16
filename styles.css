@@ -41,7 +41,7 @@ nav.navbar {
 }
 
 .pad2 {
-   padding: 20px 20px 20px 20px;
+   padding: 20px 20px 50px 20px;
    height: 100px;
 }
 
@@ -52,6 +52,19 @@ nav.navbar {
 .pad4 {
    padding: 50px 20px 20px 20px;
    height: 100px;
+}
+
+.pad5 {
+   padding: 20px 0 0 20px;
+}
+
+.pad6 {
+   padding-top: 3vh;
+}
+
+.pad7 {
+   padding: 40px 20px;
+
 }
 
 .parallax {
@@ -125,6 +138,10 @@ small {
    font-size: 25px;
 }
 
+.font4 {
+   font-size: 70px;
+}
+
 .parallax1 {
     /* The image used */
     background-image: url('http://cdn.history.com/sites/2/2015/09/iStock_000038100826_Large.jpg');
@@ -177,7 +194,12 @@ small {
 .white {
    color: white;
    text-shadow:  1px 1px black;
-   padding: 0 30px
+   padding: 0 30px;
+}
+
+.white1 {
+   color: white;
+   text-shadow:  1px 1px black;
 }
 
 .parallax3 {
@@ -297,6 +319,36 @@ small {
 #container1 {
    background-image: url("https://www.doi.gov/sites/doi.gov/files/styles/featured_image__full_width/public/press-release/primary-images/yellowstonenp_bison_herd_lamar_valley_neal_herbert_nps_photo.jpg?itok=6k1ukTNM");
    background-size: cover;
+}
+
+.sugg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.button {
+   margin-top: 30px;
+   width: 150px;
+   align-self: flex-end;
+}
+
+.thanks {
+   margin: 250px 0
+}
+
+.space {
+   height: 10vh;
+}
+
+.guide {
+   width: 30vw
+   height: auto;
+}
+
+.border {
+   border: 5px solid black;
 }
 
 /* Extra small devices (phones, less than 768px) */
