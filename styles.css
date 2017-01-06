@@ -3,6 +3,9 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 font-family: 'Exo 2', sans-serif;
 font-family: 'Quicksand', sans-serif;*/
+html {
+    font-size: 2vw;
+}
 
 body {
    margin: 0;
@@ -14,6 +17,9 @@ body, html {
     height: 100%;
 }
 
+h1 {
+    font-size: 2em;
+}
 
 nav.navbar {
    margin: 0;
@@ -36,26 +42,26 @@ nav.navbar {
 
 .main {
    background-color: white;
-   height: 37vh;
+   height: 48vh;
    padding: 0 30px;
 }
 
 .pad2 {
-   padding: 20px 20px 50px 20px;
+   padding: 5vh 5vw 20vh 5vw;
    height: 100px;
 }
 
 .pad3 {
-   padding: 15vh 5vw;
+   padding: 18vh 5vw;
 }
 
 .pad4 {
-   padding: 50px 20px 20px 20px;
+   padding: 3vh 5vw 5vh 5vw;
    height: 100px;
 }
 
 .pad5 {
-   padding: 20px 0 0 20px;
+   padding: 8vh 0 0 10vw;
 }
 
 .pad6 {
@@ -63,8 +69,21 @@ nav.navbar {
 }
 
 .pad7 {
-   padding: 40px 20px;
+   padding: 20px 20px;
 
+}
+
+.pad8 {
+   padding: 18vh 5vw 5vh 5vw;;
+}
+
+ .pad9 {
+    padding-top: 2vh;
+}
+
+.pad10 {
+   padding-left: 3vw;
+   padding-right: 3vw;    
 }
 
 .parallax {
@@ -73,7 +92,7 @@ nav.navbar {
     background-size: cover;
 
     /* Full height */
-    height: 80%;
+    height: 80vh;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -84,6 +103,14 @@ nav.navbar {
 
 .center {
     text-align: center;
+}
+
+.center1 {
+    text-align: center;
+}
+
+#border {
+   border: 5px solid black;
 }
 
 .center2 {
@@ -123,25 +150,44 @@ small {
 }
 
 .font {
-   font-size: 45px;
+   font-size: 4.5vw;
 }
 
 .font1 {
-   font-size: 30px;
+   font-size: 3vw;
 }
 
 .font2 {
-   font-size: 20px;
+   font-size: 2vw;
 }
 
 .font3 {
-   font-size: 25px;
+   font-size: 2.5vw;
 }
 
 .font4 {
-   font-size: 70px;
+   font-size: 7vw;
 }
 
+.font5 {
+   font-size: 12vw;
+}
+
+.font6 {
+   font-size: 1.5vw;
+}
+
+#guides1 {
+   border-top: 5px solid black;
+   /*border-left: 5px solid black;
+   border-right: 5px solid black;*/
+}
+
+#guides2 {
+   border-bottom: 5px solid black;
+   /*border-left: 5px solid black;
+   border-right: 5px solid black;*/
+}
 .parallax1 {
     /* The image used */
     background-image: url('http://cdn.history.com/sites/2/2015/09/iStock_000038100826_Large.jpg');
@@ -156,10 +202,6 @@ small {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*.yosemite {
-   background-image: url("https://content-oars.netdna-ssl.com/wp-content/uploads/2015/12/Yosemite.Fran_.jpg");
-   background-size: cover;
-}*/
 
 .white {
    color: white;
@@ -186,10 +228,6 @@ small {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/*.yosemite {
-   background-image: url("https://content-oars.netdna-ssl.com/wp-content/uploads/2015/12/Yosemite.Fran_.jpg");
-   background-size: cover;
-}*/
 
 .white {
    color: white;
@@ -299,21 +337,25 @@ small {
 }
 
 .centerpic {
-   position: absolute;
-   margin-left: auto;
-   margin-right: auto;
-   left: 0;
-   right: 0;
+   position: relative;
+   margin: 3vh 35vw 5vh 35vw;
    box-shadow: 10px 10px 5px #888888;
    border: 3px solid white;
+   width: 30vw;
 }
 
 .story {
-   margin-top: 330px;
+   margin-top: 45vh;
 }
 
 .box {
    box-shadow: 10px 10px 5px #888888;
+}
+
+.box1 {
+   box-shadow: 10px 10px 5px #888888;
+   width: 30vw;
+   height: 45vh;
 }
 
 #container1 {
@@ -335,7 +377,8 @@ small {
 }
 
 .thanks {
-   margin: 250px 0
+   margin: 25vh 10vw;
+   width: 80vw;
 }
 
 .space {
@@ -348,17 +391,68 @@ small {
 }
 
 .border {
-   border: 5px solid black;
+   border-top: 5px solid black;
+   border-bottom: 5px solid black;
+}
+
+#blue {
+  background-color: rgb(15, 76, 213);
+}
+
+#picborder {
+   border: 1px solid lightgrey;
+}
+
+.shadow {
+   text-shadow: 3px 3px black;
+}
+
+.hike {
+  width: 30vw;
+}
+
+.grey {
+   background-color: lightgrey;
+}
+
+.logo-left {
+   width: 30vw;
+}
+
+.indent {
+   margin: 10vh;
 }
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
+@media (min-width: @screen-sm-min) {
+html {
+   font-size: 1.5vh;
+}
+
+}
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md-min) { ... }
+@media (min-width: @screen-md-min) {
+   html {
+      font-size: 2vh;
+   }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+@media (min-width: @screen-lg-min) {
+   /*body { font-size:100%;}*/
+ }
+
+ @media screen and (min-width: 50em) {
+   html {
+     font-size: 2vw;
+   }
+ }
+
+ @media screen and (min-width: 75em) {
+  html {
+    font-size: 1.5em;
+  }
+}
